@@ -57,8 +57,8 @@ img {
 }
 
 /*Here's where you would put your Google Fonts import*/
-@import url('https://fonts.googleapis.com/css?family=Monoton|Roboto:300,400,500,700');
 
+@import url ('https://fonts.googleapis.com/css?family=Monoton|Roboto:300,400,500,700');
 
 /* BOX MODEL SETTING FOR ALL ELEMENTS BY DEFAULT
 THIS IS BETTER THAN DEFAULT, YOU SHOULD ALWAYS USE THIS:
@@ -74,13 +74,34 @@ html {
 body {
   font-size: 16px; /* Base Size */
   /*Setting the base font family*/
-  font-family: font-family: 'Roboto', sans-serif;
-  margin: 0;
+  font-family: 'Roboto', sans-serif;
   padding: 0;
+  margin: 0;
+  color: black;
 }
 
 h1 {
   font-family: 'Monoton', cursive;
+  font-size: 70px;
+  margin: 0 auto;
+  }
+
+h2 {
+  font-family: 'Roboto', sans-serif;
+
+}
+
+p {
+  font-weight: 300;
+}
+
+.content-band {
+  width: 100%
+}
+
+.live-area {
+  width: 1000px;
+  margin: 0 auto;
 }
 
 /*Here's a sample media query for you. This one is for desktop styles.*/
