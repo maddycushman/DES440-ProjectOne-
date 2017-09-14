@@ -94,7 +94,15 @@ h2 {
   font-size: 30px;
   font-weight: 600;
   padding-top: 20px;
-    letter-spacing: 1;
+  letter-spacing: 1;
+}
+
+h3 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  padding-top: 20px;
+  letter-spacing: 1;
 }
 
 p {
@@ -124,12 +132,20 @@ p {
 }
 
 #title {
-  padding-top: 490px;
+  padding-top: 390px;
 }
 #header {
   background-color: black;
-  max-height: 700px;
+  max-height: 600px;
 }
+
+.half {
+  width: 50%;
+  float: left;
+  text-align: left;
+  max-width: 100px;
+}
+
 
 
 /*Here's a sample media query for you. This one is for desktop styles.*/
