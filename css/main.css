@@ -146,7 +146,7 @@ p {
   padding-top: 390px;
 }
 #header {
-  background-color: black;
+  background-image: image("1.jpg");
   max-height: 600px;
 }
 
