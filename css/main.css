@@ -85,7 +85,7 @@ h1 {
   font-size: 200px;
   margin: 0 auto;
   text-align: center;
-  color: black;
+  color: white;
 
 }
 
@@ -143,11 +143,13 @@ p {
 
 #title {
   padding-top: 390px;
+
 }
 
 #header {
   max-width: 100%;
   max-height: 600px;
+    background-color: black;
 
 }
 
