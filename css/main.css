@@ -149,9 +149,9 @@ p {
 }
 
 #header {
-  width: 1200px;
+  max-width: 100%;
   max-height: 600px;
-  background-image: url("../2.png");
+  background-image: url("../bc.png");
   background-repeat: no-repeat;
 }
 
