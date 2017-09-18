@@ -85,7 +85,7 @@ h1 {
   font-size: 200px;
   margin: 0 auto;
   text-align: center;
-  color: white;
+  color: black;
 
 }
 
@@ -139,19 +139,21 @@ p {
 
 .full {
   width: 100%;
-  margin: 0 auto;
-}
+  margin: 0 auto; }
 
 #title {
   padding-top: 390px;
 }
+
 #header {
-  background-image: image("1.jpg");
+  max-width: 100%;
   max-height: 600px;
+
 }
 
+
 .fulldate {
-    width: 100%;
+    width: 100%
     margin: 0 auto;
     height: 300px;
     background-color: black;
@@ -171,9 +173,8 @@ p {
 .halfphoto {
 
     float:left;
-    width: 500px;
-    height: 400px;
-    background-color: black;
+    max-width: 500px;
+    max-height: 400px;
     margin-bottom: 50px;
 }
 
@@ -187,7 +188,7 @@ p {
 }
 
 #half2 {
-      padding-top: 75px;
+
 
 }
 
@@ -195,7 +196,6 @@ p {
     float: right;
     width: 500px;
     height: 400px;
-    background-color: red;
     margin-top: -405px;
 
 
