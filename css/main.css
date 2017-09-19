@@ -111,7 +111,7 @@ h4 {
   font-size: 200px;
   text-align: left;
   color: white;
-
+  padding-top: 65px;
 }
 
 
@@ -155,27 +155,48 @@ p {
   background: url("../gif.gif");
   background-attachment: fixed;
   background-repeat: no-repeat;
+    background-size: cover;
 }
 
+@media only screen and (max-width: 767px) and (min-width: 480px) {
+header {
+    width: 420px;
+}
+}
 
 .fulldate {
     width: 100%
     margin: 0 auto;
     height: 280px;
-    background-image: url("../2.png");
+    /* background-image: url("../giphy (2).gif"); */
+     background-image: url("../6.png");
     background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
     margin-bottom: 70px;
-    margin-top: -220px;
+    margin-top: -190px;
 }
 
 .fulldate81 {
     width: 100%
     margin: 0 auto;
     height: 280px;
-    background-image: url("../6.png");
+    background-image: url("../street.png");
+    background-attachment: fixed;
+    margin-bottom: 70px;
+    margin-top: -190px;
+}
+
+.fulldate82 {
+    width: 100%
+    margin: 0 auto;
+    height: 280px;
+    background-image: url("../smiths.png");
     background-attachment: fixed;
     margin-bottom: 70px;
     margin-top: -220px;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .half {
@@ -184,13 +205,10 @@ p {
     height: 400px;
     text-align: left;
     margin-right: 50px;
-
 }
 
 
-
 .halfphoto {
-
     float:left;
     max-width: 500px;
     max-height: 400px;
