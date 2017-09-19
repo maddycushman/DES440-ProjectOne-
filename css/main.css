@@ -152,9 +152,8 @@ p {
 #header {
   max-width: 100%;
   max-height: 600px;
-  background-image: url("../bc.png");
+  background: url("../gif.gif");
   background-attachment: fixed;
-
   background-repeat: no-repeat;
 }
 
@@ -173,7 +172,7 @@ p {
     width: 100%
     margin: 0 auto;
     height: 280px;
-    background-image: url("../2.png");
+    background-image: url("../6.png");
     background-attachment: fixed;
     margin-bottom: 70px;
     margin-top: -220px;
