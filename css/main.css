@@ -169,6 +169,16 @@ p {
     margin-top: -220px;
 }
 
+.fulldate81 {
+    width: 100%
+    margin: 0 auto;
+    height: 280px;
+    background-image: url("../2.png");
+    background-attachment: fixed;
+    margin-bottom: 70px;
+    margin-top: -220px;
+}
+
 .half {
     float:right;
     width: 400px;
