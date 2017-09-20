@@ -86,12 +86,11 @@ h1 {
   margin: 0 auto;
   text-align: center;
   color: white;
-
 }
 
 h2 {
   font-family: 'Roboto', sans-serif;
-  font-size: 30px;
+  font-size: 40px;
   font-weight: 600;
   padding-top: 20px;
   letter-spacing: 1;
@@ -138,9 +137,10 @@ p {
 }
 
 .full {
-  width: 100%;
+  width: 70%;
   margin: 0 auto;
   background-color: white;
+
 }
 
 #title {
@@ -155,14 +155,9 @@ p {
   background: url("../gif.gif");
   background-attachment: fixed;
   background-repeat: no-repeat;
-    background-size: cover;
+  background-size: cover;
 }
 
-@media only screen and (max-width: 767px) and (min-width: 480px) {
-header {
-    width: 420px;
-}
-}
 
 .fulldate {
     width: 100%
@@ -177,11 +172,14 @@ header {
     margin-top: -190px;
 }
 
+
+
+
 .fulldate81 {
     width: 100%
     margin: 0 auto;
     height: 280px;
-    background-image: url("../street.png");
+    background-image: url("../2.png");
     background-attachment: fixed;
     margin-bottom: 70px;
     margin-top: -190px;
@@ -197,6 +195,7 @@ header {
     margin-top: -220px;
     background-repeat: no-repeat;
     background-size: cover;
+
 }
 
 .half {
@@ -205,6 +204,7 @@ header {
     height: 400px;
     text-align: left;
     margin-right: 50px;
+    margin-top: -40px;
 }
 
 
@@ -236,6 +236,7 @@ header {
   }
 
 
+
 /*Here's a sample media query for you. This one is for desktop styles.*/
 /*@media only screen and (min-width: 960px) {
 
@@ -245,20 +246,45 @@ header {
    Helper classes
    ========================================================================== */
 /* Use this clearfix class on the parent of floated elements to clear the float! */
-@media only screen and (max-width: 500px) {
-  .content-band {
-    width: 100%;
-    max-width: 500px;
-    margin: 0 auto;
-    text-align: center;
+
+
+@media only screen and (max-width: 400px) {
+  .live-area {
+    max-width: 400px;
+}
+@media only screen and (max-width: 400px) {
+  h1 {
+    font-size: 70px;
+}
+@media only screen and (max-width: 400px) {
+  #header {
+    width: 400px;
+    max-height:600px;
+    margin:0 auto;
+    background: url("../gif.gif");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+  @media only screen and (max-width: 400px) {
+    h4 {
+      font-family: 'Monoton', cursive;
+      font-size: 200px;
+      text-align: left;
+      color: white;
+      padding-top: 65px;
+    }
 }
 
-@media only screen and (max-width: 500px) {
-  .live-area {
-    width: 500px;
-    margin: 0 auto;
-    text-align: center;
-}
+    @media only screen and (max-width: 400px) {
+      .half {
+          float:left;
+          text-align: left;
+          }
+
+
+
 
 
 .clearfix:before,
