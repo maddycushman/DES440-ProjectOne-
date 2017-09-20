@@ -250,7 +250,7 @@ p {
 
 @media only screen and (max-width: 400px) {
   .live-area {
-    max-width: 400px;
+    max-width: 350px;
 }
 @media only screen and (max-width: 400px) {
   h1 {
@@ -277,11 +277,27 @@ p {
     }
 }
 
-    @media only screen and (max-width: 400px) {
+  @media only screen and (max-width: 400px) {
       .half {
-          float:left;
-          text-align: left;
+          float:none;
+          width:100%;
           }
+    @media only screen and (max-width: 400px) {
+          .halfphoto {
+            float:none;
+            width:100%;
+                }
+    @media only screen and (max-width: 400px) {
+          .half2 {
+          float:none;
+          width:100%;
+                }
+  @media only screen and (max-width: 400px) {
+      .halfphoto2 {
+      float:none;
+      width:100%;
+  }
+
 
 
 
