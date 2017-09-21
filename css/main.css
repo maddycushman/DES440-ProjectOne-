@@ -111,6 +111,7 @@ h4 {
   text-align: left;
   color: white;
   padding-top: 65px;
+
 }
 
 
@@ -164,7 +165,7 @@ p {
     margin: 0 auto;
     height: 280px;
     /* background-image: url("../giphy (2).gif"); */
-     background-image: url("../6.png");
+    background-image: url("../6.png");
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -175,17 +176,18 @@ p {
 
 
 
-.fulldate81 {
-    width: 100%
+.fulldate82 {
+    width: 100%;
     margin: 0 auto;
     height: 280px;
     background-image: url("../2.png");
     background-attachment: fixed;
+    background-repeat: no-repeat;
     margin-bottom: 70px;
     margin-top: -190px;
 }
 
-.fulldate82 {
+.fulldate81 {
     width: 100%
     margin: 0 auto;
     height: 280px;
@@ -247,7 +249,7 @@ p {
    ========================================================================== */
 /* Use this clearfix class on the parent of floated elements to clear the float! */
 
-
+/*
 @media only screen and (max-width: 400px) {
   .live-area {
     max-width: 400px;
@@ -283,7 +285,7 @@ p {
           text-align: left;
           }
 
-
+*/
 
 
 
