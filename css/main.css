@@ -87,6 +87,7 @@ h1 {
   text-align: center;
   color: white;
   padding-top: 400px;
+  margin-bottom: -70px;
 }
 
 h2 {
@@ -101,7 +102,6 @@ h3 {
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
   font-weight: 400;
-  margin-top: -10px;
   letter-spacing: 1;
 
 }
@@ -111,7 +111,9 @@ h4 {
   font-size: 200px;
   text-align: left;
   color: white;
-  padding-top: 65px;
+  padding-top: 90px;
+
+
 
 }
 
@@ -129,15 +131,32 @@ p {
 
 
 @media only screen and (max-width: 400px) {
-  h1 { font-size: 80px;
-
+  h1 { font-size: 75px;
+    text-align: center;
+    margin-bottom: -30px;
   }
+
   p {
     flex-flow: column nowrap;
-    font-size: 17px;
+    font-size: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 auto;
   }
+
   .full {
-    width: 100%;
+    width: 100%;}
+
+  h2 { padding-left: 20px;
+    font-size: 30px;}
+
+  h3 {
+    padding-left: 20px;}
+
+  h4 {
+    font-family: 'Monoton', cursive;
+    font-size: 200px;
+
   }
 
 }
@@ -169,16 +188,21 @@ p {
 }
 
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 500px) {
   .live-area {
     flex-flow: column nowrap;
-    padding: 40px;
+
 
   }
   .full {
     width: 100%;
   }
 
+  #header {
+    max-width: 100%;
+    background-position: center;
+    background-size: cover;
+}
 }
 
 
@@ -198,6 +222,8 @@ p {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+
 
 
 .fulldate {
@@ -240,16 +266,23 @@ p {
     background-size: cover;
 
 }
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 500px) {
   .fulldate {
     width: 100%;
     background-size: cover;
     background-attachment: fixed;
+    margin-bottom: 0;
   }
   .fulldate81 {
     width: 100%;
     background-size: cover;
     background-attachment: fixed;
+    margin-bottom: 0;
+  }
+  .fulldate82 { width: 100%;
+  background-size: cover;
+  background-attachment: fixed;
+  margin-bottom: 0;
   }
 }
 
@@ -271,6 +304,7 @@ p {
     max-width: 500px;
     /*max-height: 400px;*/
     /*margin-bottom: 50px;*/
+
 }
 
 
@@ -286,12 +320,27 @@ p {
 
 .halfphoto2 {
     width: 500px;
-    order: 2;
+    order: 1;
 
   }
 
 
 
+  @media only screen and (max-width: 500px) {
+.half {
+  width: 400px;
+  margin-right: 50px;
+  /*margin-top: -40px;*/
+  padding-bottom: 2em;
+  order: 1;
+}
+
+.halfphoto {
+    max-width: 500px;
+    padding: 0;
+    order: 2;
+
+}
   }
 
 /*.reagan {
