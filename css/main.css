@@ -214,9 +214,8 @@ p {
 
 
 #header {
-  max-width: 100%;
-  min-height: 60%;
-  /*max-height: 600px;*/
+
+  max-height: 85%;
   background: url("../gif.gif");
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -342,12 +341,6 @@ p {
 
 }
   }
-
-/*.reagan {
-  background: transparent url('../reagan.png') no-repeat center center;
-  background-size: cover;
-} */
-
 
 
 
