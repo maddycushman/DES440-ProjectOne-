@@ -78,6 +78,9 @@ body {
   padding: 0;
   margin: 0;
   color: black;
+  -webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-smoothing: antialiased;
 }
 
 h1 {
@@ -88,6 +91,9 @@ h1 {
   color: white;
   padding-top: 400px;
   margin-bottom: -70px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
 }
 
 h2 {
@@ -191,8 +197,6 @@ p {
 @media only screen and (max-width: 500px) {
   .live-area {
     flex-flow: column nowrap;
-
-
   }
   .full {
     width: 100%;
@@ -332,10 +336,30 @@ p {
     order: 2;}
   }
 
+  .slide-right.element-in {
+  	-webkit-animation: slide-right 8s cubic-bezier(0.250, 0.460, 0.450, 0.940) .5s both;
+  	        animation: slide-right 8s cubic-bezier(0.250, 0.460, 0.450, 0.940) .5s both;
+  }
 
-  .slide-right {
-  	-webkit-animation: slide-right 0.5s linear both;
-  	        animation: slide-right 0.5s linear both;
+  @-webkit-keyframes slide-right {
+    0% {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+    }
+    100% {
+      -webkit-transform: translateX(100px);
+              transform: translateX(1200px);
+    }
+  }
+  @keyframes slide-right {
+    0% {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+    }
+    100% {
+      -webkit-transform: translateX(100px);
+              transform: translateX(1200px);
+    }
   }
 
 
