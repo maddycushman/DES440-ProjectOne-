@@ -78,6 +78,9 @@ body {
   padding: 0;
   margin: 0;
   color: black;
+  -webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-smoothing: antialiased;
 }
 
 h1 {
@@ -88,6 +91,9 @@ h1 {
   color: white;
   padding-top: 400px;
   margin-bottom: -70px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
 }
 
 h2 {
@@ -191,8 +197,6 @@ p {
 @media only screen and (max-width: 500px) {
   .live-area {
     flex-flow: column nowrap;
-
-
   }
   .full {
     width: 100%;
@@ -214,9 +218,8 @@ p {
 
 
 #header {
-  max-width: 100%;
-  min-height: 60%;
-  /*max-height: 600px;*/
+
+  max-height: 85%;
   background: url("../gif.gif");
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -266,7 +269,7 @@ p {
     background-size: cover;
 
 }
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 600px) {
   .fulldate {
     width: 100%;
     background-size: cover;
@@ -281,8 +284,9 @@ p {
   }
   .fulldate82 { width: 100%;
   background-size: cover;
-  background-attachment: fixed;
+  background-attachment:scroll;
   margin-bottom: 0;
+
   }
 }
 
@@ -295,17 +299,14 @@ p {
     margin-right: 50px;
     /*margin-top: -40px;*/
     padding-bottom: 2em;
-    padding-left: 20px;
-}
+    padding-left: 20px; }
 
 
 .halfphoto {
     /*float:left;*/
     max-width: 500px;
     /*max-height: 400px;*/
-    /*margin-bottom: 50px;*/
-
-}
+    /*margin-bottom: 50px;*/ }
 
 
 .half2 {
@@ -313,44 +314,53 @@ p {
     width: 400px;
     /*height:400px;*/
     margin-left: 20px;
-    padding-bottom: 2em;
-}
+    padding-bottom: 2em; }
 
 
 
 .halfphoto2 {
     width: 500px;
-    order: 1;
+    order: 1;  }
 
-  }
-
-
-
-  @media only screen and (max-width: 500px) {
+@media only screen and (max-width: 500px) {
 .half {
   width: 400px;
   margin-right: 50px;
   /*margin-top: -40px;*/
   padding-bottom: 2em;
-  order: 1;
-}
+  order: 1; }
 
 .halfphoto {
     max-width: 500px;
     padding: 0;
-    order: 2;
-
-}
+    order: 2;}
   }
 
-/*.reagan {
-  background: transparent url('../reagan.png') no-repeat center center;
-  background-size: cover;
-} */
+  .slide-right.element-in {
+  	-webkit-animation: slide-right 8s cubic-bezier(0.250, 0.460, 0.450, 0.940) .5s both;
+  	        animation: slide-right 8s cubic-bezier(0.250, 0.460, 0.450, 0.940) .5s both;
+  }
 
-
-
-
+  @-webkit-keyframes slide-right {
+    0% {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+    }
+    100% {
+      -webkit-transform: translateX(100px);
+              transform: translateX(1200px);
+    }
+  }
+  @keyframes slide-right {
+    0% {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+    }
+    100% {
+      -webkit-transform: translateX(100px);
+              transform: translateX(1200px);
+    }
+  }
 
 
 /*Here's a sample media query for you. This one is for desktop styles.*/
