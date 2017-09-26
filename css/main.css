@@ -265,7 +265,7 @@ p {
     background-size: cover;
 
 }
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 600px) {
   .fulldate {
     width: 100%;
     background-size: cover;
@@ -280,8 +280,9 @@ p {
   }
   .fulldate82 { width: 100%;
   background-size: cover;
-  background-attachment: fixed;
+  background-attachment:scroll;
   margin-bottom: 0;
+
   }
 }
 
@@ -294,17 +295,14 @@ p {
     margin-right: 50px;
     /*margin-top: -40px;*/
     padding-bottom: 2em;
-    padding-left: 20px;
-}
+    padding-left: 20px; }
 
 
 .halfphoto {
     /*float:left;*/
     max-width: 500px;
     /*max-height: 400px;*/
-    /*margin-bottom: 50px;*/
-
-}
+    /*margin-bottom: 50px;*/ }
 
 
 .half2 {
@@ -312,38 +310,33 @@ p {
     width: 400px;
     /*height:400px;*/
     margin-left: 20px;
-    padding-bottom: 2em;
-}
+    padding-bottom: 2em; }
 
 
 
 .halfphoto2 {
     width: 500px;
-    order: 1;
+    order: 1;  }
 
-  }
-
-
-
-  @media only screen and (max-width: 500px) {
+@media only screen and (max-width: 500px) {
 .half {
   width: 400px;
   margin-right: 50px;
   /*margin-top: -40px;*/
   padding-bottom: 2em;
-  order: 1;
-}
+  order: 1; }
 
 .halfphoto {
     max-width: 500px;
     padding: 0;
-    order: 2;
-
-}
+    order: 2;}
   }
 
 
-
+  .slide-right {
+  	-webkit-animation: slide-right 0.5s linear both;
+  	        animation: slide-right 0.5s linear both;
+  }
 
 
 /*Here's a sample media query for you. This one is for desktop styles.*/
