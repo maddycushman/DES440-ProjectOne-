@@ -136,10 +136,11 @@ p {
 }
 
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 500px) {
   h1 { font-size: 75px;
     text-align: center;
-    margin-bottom: -30px;
+    padding-top: 400px;
+    margin-bottom: -300px;
   }
 
   p {
@@ -204,6 +205,7 @@ p {
 
   #header {
     max-width: 100%;
+    height:700px;
     background-position: center;
     background-size: cover;
 }
@@ -212,14 +214,14 @@ p {
 
 
 #title {
-  padding-top: 60%;
+  padding-top: 85%;
 
 }
 
 
 #header {
 
-  max-height: 85%;
+  min-height: 90%;
   background: url("../gif.gif");
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -241,8 +243,6 @@ p {
     margin-bottom: 70px;
     margin-top: -190px;
 }
-
-
 
 
 .fulldate82 {
@@ -269,6 +269,7 @@ p {
     background-size: cover;
 
 }
+
 @media only screen and (max-width: 600px) {
   .fulldate {
     width: 100%;
@@ -337,8 +338,8 @@ p {
   }
 
   .slide-right.element-in {
-  	-webkit-animation: slide-right 8s cubic-bezier(0.250, 0.460, 0.450, 0.940)  both;
-  	        animation: slide-right 8s cubic-bezier(0.250, 0.460, 0.450, 0.940)  both;
+  	-webkit-animation: slide-right 25s cubic-bezier(0.250, 0.460, 0.450, 0.940) .5s both;
+  	        animation: slide-right 25s cubic-bezier(0.250, 0.460, 0.450, 0.940) .5s both;
   }
 
   @-webkit-keyframes slide-right {
@@ -348,7 +349,7 @@ p {
     }
     100% {
       -webkit-transform: translateX(100px);
-              transform: translateX(1200px);
+              transform: translateX(3000px);
     }
   }
   @keyframes slide-right {
@@ -358,7 +359,7 @@ p {
     }
     100% {
       -webkit-transform: translateX(100px);
-              transform: translateX(1200px);
+              transform: translateX(3000px);
     }
   }
 
