@@ -120,8 +120,6 @@ h4 {
   color: white;
   padding-top: 90px;
 
-
-
 }
 
 
@@ -135,7 +133,6 @@ p {
 
 
 }
-
 
 @media only screen and (max-width: 500px) {
   h1 { font-size: 75px;
@@ -169,10 +166,14 @@ p {
 
 }
 
+#willis {
+margin-top: 30px;}
+#downarrow {
+margin-bottom: -25px;
+}
 
 .content-band {
   width: 100%;
-
 }
 
 .live-area {
