@@ -148,7 +148,7 @@ p {
 
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 400px) {
   h1 { font-size: 75px;
     text-align: center;
     padding-top: 400px;
@@ -211,9 +211,11 @@ margin-bottom: -25px;
 }
 
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 400px) {
   .live-area {
     flex-flow: column nowrap;
+
+
   }
   .full {
     width: 100%;
@@ -380,7 +382,7 @@ margin-bottom: -25px;
 }
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 400px) {
   .fulldate {
     width: 100%;
     background-size: cover;
@@ -434,7 +436,7 @@ margin-bottom: -25px;
     order: 1;
        }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 400px) {
 .half {
   width: 400px;
   margin-right: 50px;
