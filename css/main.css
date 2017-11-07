@@ -100,8 +100,7 @@ h5 {
   font-family: 'Monoton', cursive;
   font-size: 100px;
   margin: 0 auto;
-  padding-top: 300px;
-  padding-bottom: 350px;
+padding-top: 400px;
   text-align: center;
   color: white;
   -webkit-font-smoothing: antialiased;
@@ -175,6 +174,38 @@ p {
   h4 {
     font-family: 'Monoton', cursive;
     font-size: 200px;
+
+  }
+
+}
+
+@media only screen and (max-width: 375px) {
+  h1 { font-size: 65px;
+    text-align: center;
+    padding-top: 400px;
+    margin-bottom: -300px;
+  }
+
+  p {
+    flex-flow: column nowrap;
+    font-size: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 0 auto;
+  }
+
+  .full {
+    width: 100%;}
+
+  h2 { padding-left: 10px;
+    font-size: 30px;}
+
+  h3 {
+    padding-left: 20px;}
+
+  h4 {
+    font-family: 'Monoton', cursive;
+    font-size: 100px;
 
   }
 
@@ -401,6 +432,43 @@ margin-bottom: -25px;
   margin-bottom: 0;
 
   }
+  .fulldate83 { width: 100%;
+  background-size: cover;
+  background-attachment:scroll;
+  margin-bottom: 0;
+
+  }
+  .fulldate84 { width: 100%;
+  background-size: cover;
+  background-attachment:scroll;
+  margin-bottom: 0;
+
+  }
+  .fulldate85 { width: 100%;
+  background-size: cover;
+  background-attachment:scroll;
+  margin-bottom: 0;
+  }
+  .fulldate86 { width: 100%;
+  background-size: cover;
+  background-attachment:scroll;
+  margin-bottom: 0;
+  }
+  .fulldate87 { width: 100%;
+  background-size: cover;
+  background-attachment:scroll;
+  margin-bottom: 0;
+  }
+  .fulldate88 { width: 100%;
+  background-size: cover;
+  background-attachment:scroll;
+  margin-bottom: 0;
+  }
+  .fulldate89 { width: 100%;
+  background-size: cover;
+  background-attachment:scroll;
+  margin-bottom: 0;
+  }
 }
 
 
@@ -450,12 +518,29 @@ margin-bottom: -25px;
     order: 2;}
   }
 
+  @media only screen and (max-width: 375px) {
+  .half {
+    width: 375px;
+    margin-right: 0;
+    /*margin-top: -40px;*/
+    padding-bottom: 2em;
+    order: 1; }
+
+  .halfphoto {
+      max-width: 375px;
+      padding: 0;
+      order: 2;
+          padding-bottom: 2em;}
+    }
+
   #footer {
-    margin-top: 60px;
+
     background: url("../final.png");
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
+    min-height: 1000px;
+    margin-top: 45px;
 
   }
 
