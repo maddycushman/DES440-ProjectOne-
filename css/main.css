@@ -145,11 +145,11 @@ p {
   line-height: 1.8;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 400px) {
   h1 { font-size: 75px;
     text-align: center;
     padding-top: 200px;
-    margin-bottom: -300px;
+    margin-bottom: -200px;
   }
 
   p {
@@ -179,8 +179,6 @@ p {
 @media only screen and (max-width: 375px) {
   h1 { font-size: 65px;
     text-align: center;
-    padding-top: 200px;
-    margin-bottom: -300px;
   }
 
   p {
@@ -254,7 +252,7 @@ margin-bottom: -25px;
 
   #header {
     max-width: 100%;
-    height: 300px;
+
     background-position: center;
     background-size: cover;
     margin: 0 auto;
