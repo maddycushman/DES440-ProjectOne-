@@ -145,7 +145,7 @@ p {
   line-height: 1.8;
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 600px) {
   h1 { font-size: 75px;
     text-align: center;
     padding-top: 400px;
@@ -242,6 +242,7 @@ margin-bottom: -25px;
 @media only screen and (max-width: 400px) {
   .live-area {
     flex-flow: column nowrap;
+    margin: 0 auto;
 
   }
   .full {
@@ -250,18 +251,27 @@ margin-bottom: -25px;
 
   #header {
     max-width: 100%;
-    height:700px;
+    height: 300px;
     background-position: center;
     background-size: cover;
+    margin: 0 auto;
 }
+#downarrow {
+  margin-bottom: 10px;
 }
 
-@media only screen and (max-width: 600px) {
+}
+
+@media only screen and (max-width: 800px) {
   .live-area {
     flex-flow: column nowrap;
 
-
   }
+
+  #downarrow {
+    margin-bottom: 10px;
+  }
+
   .full {
     width: 100%;
   }
@@ -299,6 +309,7 @@ h4 {
     background-position: center;
     background-size: cover;
 }
+
 
 h4 {
   font-size: 150px;
@@ -476,11 +487,14 @@ h4 {
     background-size: cover;
     background-attachment: fixed;
     margin-bottom: 0;
+
+
   }
   .fulldate82 { width: 100%;
   background-size: cover;
   background-attachment:scroll;
   margin-bottom: 0;
+
 
   }
   .fulldate83 { width: 100%;
@@ -488,32 +502,38 @@ h4 {
   background-attachment:scroll;
   margin-bottom: 0;
 
+
   }
   .fulldate84 { width: 100%;
   background-size: cover;
   background-attachment:scroll;
   margin-bottom: 0;
 
+
   }
   .fulldate85 { width: 100%;
   background-size: cover;
   background-attachment:scroll;
   margin-bottom: 0;
+
   }
   .fulldate86 { width: 100%;
   background-size: cover;
   background-attachment:scroll;
   margin-bottom: 0;
+
   }
   .fulldate87 { width: 100%;
   background-size: cover;
   background-attachment:scroll;
   margin-bottom: 0;
+
   }
   .fulldate88 { width: 100%;
   background-size: cover;
   background-attachment:scroll;
   margin-bottom: 0;
+
   }
   .fulldate89 { width: 100%;
   background-size: cover;
@@ -530,6 +550,7 @@ h4 {
     width: 100%;
     background-size: cover;
     background-attachment: fixed;
+
   }
 
   .fulldate81 {
@@ -650,7 +671,7 @@ h4 {
       max-width: 375px;
       padding: 0;
       order: 2;
-          padding-bottom: 2em;}
+      padding-bottom: 2em;}
     }
 
 
@@ -677,7 +698,6 @@ h4 {
     background-size: cover;
     min-height: 1000px;
     margin-top: 45px;
-
   }
 
   .slide-right.element-in {
@@ -694,7 +714,7 @@ h4 {
     100% {
       -webkit-transform: translateX(100px);
               transform: translateX(2000px);
-              overflow-x: hidden; 
+              overflow-x: hidden;
     }
   }
   @keyframes slide-right {
