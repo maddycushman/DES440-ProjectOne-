@@ -81,6 +81,8 @@ body {
   -webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	font-smoothing: antialiased;
+  overflow-x: hidden;
+
 }
 
 h1 {
@@ -148,7 +150,7 @@ p {
 @media only screen and (max-width: 400px) {
   h1 { font-size: 75px;
     text-align: center;
-    padding-top: 200px;
+    padding-top: 100px;
     margin-bottom: -200px;
   }
 
@@ -252,11 +254,13 @@ margin-bottom: -25px;
 
   #header {
     max-width: 100%;
-
+    min-height: 400px;
     background-position: center;
-    background-size: cover;
+    background-size: contain;
     margin: 0 auto;
+
 }
+
 #downarrow {
   margin-bottom: 10px;
 }
@@ -279,7 +283,7 @@ margin-bottom: -25px;
 
   #header {
     max-width: 100%;
-    height: 500px;
+    height: 400px;
     background-position: center;
     background-size: cover;
 }
@@ -701,8 +705,8 @@ h4 {
   }
 
   .slide-right.element-in {
-  	-webkit-animation: slide-right 25s cubic-bezier(0.250, 0.460, 0.450, 0.940) .5s both;
-  	        animation: slide-right 25s cubic-bezier(0.250, 0.460, 0.450, 0.940) .5s both;
+  	-webkit-animation: slide-right 10s cubic-bezier(0.250, 0.460, 0.450, 0.940) .5s both;
+  	        animation: slide-right 10s cubic-bezier(0.250, 0.460, 0.450, 0.940) .5s both;
             overflow:
   }
 
@@ -713,8 +717,8 @@ h4 {
     }
     100% {
       -webkit-transform: translateX(100px);
-              transform: translateX(2000px);
-              overflow-x: hidden;
+              transform: translateX(1000px);
+
     }
   }
   @keyframes slide-right {
@@ -724,8 +728,8 @@ h4 {
     }
     100% {
       -webkit-transform: translateX(100px);
-              transform: translateX(2000px);
-              overflow-x: hidden;
+              transform: translateX(1000px);
+
     }
   }
 
